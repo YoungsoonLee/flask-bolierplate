@@ -1,0 +1,120 @@
+400: Bad Request
+Traceback (most recent call last):
+  File "D:\python\flask\flaskbolierplate\venv\lib\site-packages\flask\wrappers.py", line 156, in get_json
+    rv = json.loads(data)
+  File "D:\python\flask\flaskbolierplate\venv\lib\site-packages\flask\json.py", line 149, in loads
+    return _json.loads(s, **kwargs)
+  File "c:\python352\Lib\json\__init__.py", line 332, in loads
+    return cls(**kw).decode(s)
+  File "c:\python352\Lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python352\Lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\flask\flaskbolierplate\venv\lib\site-packages\flask_restless\views.py", line 1435, in post
+    data = request.get_json() or {}
+  File "D:\python\flask\flaskbolierplate\venv\lib\site-packages\flask\wrappers.py", line 161, in get_json
+    rv = self.on_json_loading_failed(e)
+  File "D:\python\flask\flaskbolierplate\venv\lib\site-packages\flask\wrappers.py", line 180, in on_json_loading_failed
+    raise BadRequest('Failed to decode JSON object: {0}'.format(e))
+werkzeug.exceptions.BadRequest: 400: Bad Request
+400: Bad Request
+Traceback (most recent call last):
+  File "D:\python\flask\flaskbolierplate\venv\lib\site-packages\flask\wrappers.py", line 156, in get_json
+    rv = json.loads(data)
+  File "D:\python\flask\flaskbolierplate\venv\lib\site-packages\flask\json.py", line 149, in loads
+    return _json.loads(s, **kwargs)
+  File "c:\python352\Lib\json\__init__.py", line 332, in loads
+    return cls(**kw).decode(s)
+  File "c:\python352\Lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python352\Lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\flask\flaskbolierplate\venv\lib\site-packages\flask_restless\views.py", line 1435, in post
+    data = request.get_json() or {}
+  File "D:\python\flask\flaskbolierplate\venv\lib\site-packages\flask\wrappers.py", line 161, in get_json
+    rv = self.on_json_loading_failed(e)
+  File "D:\python\flask\flaskbolierplate\venv\lib\site-packages\flask\wrappers.py", line 180, in on_json_loading_failed
+    raise BadRequest('Failed to decode JSON object: {0}'.format(e))
+werkzeug.exceptions.BadRequest: 400: Bad Request
+400: Bad Request
+Traceback (most recent call last):
+  File "D:\python\flask\flaskbolierplate\venv\lib\site-packages\flask\wrappers.py", line 156, in get_json
+    rv = json.loads(data)
+  File "D:\python\flask\flaskbolierplate\venv\lib\site-packages\flask\json.py", line 149, in loads
+    return _json.loads(s, **kwargs)
+  File "c:\python352\Lib\json\__init__.py", line 332, in loads
+    return cls(**kw).decode(s)
+  File "c:\python352\Lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python352\Lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\flask\flaskbolierplate\venv\lib\site-packages\flask_restless\views.py", line 1435, in post
+    data = request.get_json() or {}
+  File "D:\python\flask\flaskbolierplate\venv\lib\site-packages\flask\wrappers.py", line 161, in get_json
+    rv = self.on_json_loading_failed(e)
+  File "D:\python\flask\flaskbolierplate\venv\lib\site-packages\flask\wrappers.py", line 180, in on_json_loading_failed
+    raise BadRequest('Failed to decode JSON object: {0}'.format(e))
+werkzeug.exceptions.BadRequest: 400: Bad Request
+400: Bad Request
+Traceback (most recent call last):
+  File "D:\python\flask\flaskbolierplate\venv\lib\site-packages\flask\wrappers.py", line 156, in get_json
+    rv = json.loads(data)
+  File "D:\python\flask\flaskbolierplate\venv\lib\site-packages\flask\json.py", line 149, in loads
+    return _json.loads(s, **kwargs)
+  File "c:\python352\Lib\json\__init__.py", line 332, in loads
+    return cls(**kw).decode(s)
+  File "c:\python352\Lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python352\Lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\flask\flaskbolierplate\venv\lib\site-packages\flask_restless\views.py", line 1435, in post
+    data = request.get_json() or {}
+  File "D:\python\flask\flaskbolierplate\venv\lib\site-packages\flask\wrappers.py", line 161, in get_json
+    rv = self.on_json_loading_failed(e)
+  File "D:\python\flask\flaskbolierplate\venv\lib\site-packages\flask\wrappers.py", line 180, in on_json_loading_failed
+    raise BadRequest('Failed to decode JSON object: {0}'.format(e))
+werkzeug.exceptions.BadRequest: 400: Bad Request
+400: Bad Request
+Traceback (most recent call last):
+  File "D:\python\flask\flaskbolierplate\venv\lib\site-packages\flask\wrappers.py", line 156, in get_json
+    rv = json.loads(data)
+  File "D:\python\flask\flaskbolierplate\venv\lib\site-packages\flask\json.py", line 149, in loads
+    return _json.loads(s, **kwargs)
+  File "c:\python352\Lib\json\__init__.py", line 332, in loads
+    return cls(**kw).decode(s)
+  File "c:\python352\Lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python352\Lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\flask\flaskbolierplate\venv\lib\site-packages\flask_restless\views.py", line 1435, in post
+    data = request.get_json() or {}
+  File "D:\python\flask\flaskbolierplate\venv\lib\site-packages\flask\wrappers.py", line 161, in get_json
+    rv = self.on_json_loading_failed(e)
+  File "D:\python\flask\flaskbolierplate\venv\lib\site-packages\flask\wrappers.py", line 180, in on_json_loading_failed
+    raise BadRequest('Failed to decode JSON object: {0}'.format(e))
+werkzeug.exceptions.BadRequest: 400: Bad Request
